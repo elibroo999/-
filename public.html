@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Беременность и материнство</title>
     <meta name="description" content="Познавательный сайт о беременности и материнстве с календарем, форумом и рекламными возможностями">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="/css/styles.css">
 </head>
 <body>
     <header>
@@ -57,7 +57,7 @@
                 button.className = "week-button";
                 button.textContent = i;
                 button.onclick = function() {
-                    window.location.href = `week${i}.html`;
+                    window.location.href = `public/week${i}.html`;
                 };
                 container.appendChild(button);
             }
@@ -102,7 +102,7 @@
 
         <h2>Полезные статьи</h2>
         <div class="article-card">
-            <img src="birth-prep.jpg" alt="Как подготовиться к родам">
+            <img src="/images/birth-prep.jpg" alt="Как подготовиться к родам">
             <div class="article-content">
                 <h3>Как подготовиться к родам</h3>
                 <p>Все, что нужно знать о подготовке к родам: чек-листы, советы и рекомендации.</p>
@@ -116,7 +116,7 @@
             </div>
         </div>
         <div class="article-card">
-            <img src="nutrition.jpg" alt="Правильное питание при беременности">
+            <img src="/images/nutrition.jpg" alt="Правильное питание при беременности">
             <div class="article-content">
                 <h3>Правильное питание при беременности</h3>
                 <p>Список полезных продуктов и рацион для будущих мам.</p>
@@ -163,6 +163,6 @@
         <p>&copy; 2025 Все права защищены. Политика конфиденциальности и Условия использования.</p>
     </footer>
     
-    <script src="script.js"></script>
+    <script src="/js/web.js"></script>
 </body>
 </html>
